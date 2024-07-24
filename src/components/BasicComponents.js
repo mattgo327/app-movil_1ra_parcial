@@ -1,11 +1,13 @@
 import React from 'react'
 import { Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native'
-
+import TextComponents from './TextComponents'
+TextComponents
 
 const BasicComponents = () => {
   return (
    
       <ScrollView style={styles.scrollView}>
+        
         <Text>Ingresando varios componentes aquí...</Text>
         <Text>
           {'\n'}
