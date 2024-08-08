@@ -11,8 +11,18 @@ const Home = ({navigation}) => {
         </ListItem.Content>
       </ListItem>
       <ListItem bottomDivider onPress={() => navigation.navigate('Avatar')}>
-        <ListItem.Content onP>
+        <ListItem.Content >
           <ListItem.Title>Avatar</ListItem.Title>
+        </ListItem.Content>
+      </ListItem>
+      <ListItem bottomDivider onPress={() => navigation.navigate('Badge')}>
+        <ListItem.Content >
+          <ListItem.Title>Badge</ListItem.Title>
+        </ListItem.Content>
+      </ListItem>
+      <ListItem bottomDivider onPress={() => navigation.navigate('Card')}>
+        <ListItem.Content >
+          <ListItem.Title>Card</ListItem.Title>
         </ListItem.Content>
       </ListItem>
     </ScrollView>
