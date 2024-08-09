@@ -11,6 +11,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import AvatarBasic from './src/react-native-elements/AvatarBasic';
 import BadgeBasic from './src/react-native-elements/BadgeBasic';
 import CardBasic from './src/react-native-elements/CardBasic';
+import TabBasic from './src/react-native-elements/TabBasic';
 
 
 const Stack = createNativeStackNavigator();
@@ -29,6 +30,7 @@ const App = () =>{
             <Stack.Screen name="Avatar" component={AvatarBasic} />
             <Stack.Screen name="Badge" component={BadgeBasic} />
             <Stack.Screen name="Card" component={CardBasic} />
+            <Stack.Screen name="Tab" component={TabBasic} />
           </Stack.Navigator>
        </NavigationContainer>
    // </ScrollView>

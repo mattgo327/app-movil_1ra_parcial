@@ -25,6 +25,11 @@ const Home = ({navigation}) => {
           <ListItem.Title>Card</ListItem.Title>
         </ListItem.Content>
       </ListItem>
+      <ListItem bottomDivider onPress={() => navigation.navigate('Tab')}>
+        <ListItem.Content >
+          <ListItem.Title>Tab</ListItem.Title>
+        </ListItem.Content>
+      </ListItem>
     </ScrollView>
   )
 }
