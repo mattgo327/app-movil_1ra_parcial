@@ -12,6 +12,9 @@ import AvatarBasic from './src/react-native-elements/AvatarBasic';
 import BadgeBasic from './src/react-native-elements/BadgeBasic';
 import CardBasic from './src/react-native-elements/CardBasic';
 import TabBasic from './src/react-native-elements/TabBasic';
+import PropsEjemplo from './src/navegacion/PropsEjemplo';
+import AxiosEjemplo from './src/navegacion/AxiosEjemplo';
+import AsyncStorageEjemplo from './src/navegacion/AsyncStorageEjemplo';
 
 
 const Stack = createNativeStackNavigator();
@@ -31,6 +34,9 @@ const App = () =>{
             <Stack.Screen name="Badge" component={BadgeBasic} />
             <Stack.Screen name="Card" component={CardBasic} />
             <Stack.Screen name="Tab" component={TabBasic} />
+            <Stack.Screen name="Props" component={PropsEjemplo} />
+            <Stack.Screen name="Axios" component={AxiosEjemplo} />
+            <Stack.Screen name="Async" component={AsyncStorageEjemplo} />
           </Stack.Navigator>
        </NavigationContainer>
    // </ScrollView>
